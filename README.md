@@ -54,6 +54,6 @@ Assim que a aplicação estiver rodando localmente, você poderá explorar, test
 <img width="1460" height="347" alt="image" src="https://github.com/user-attachments/assets/ed0fe309-a03c-4df1-b491-36148fd21a03" />
 
 
-### URL de Acesso
+### URL de Acesso ao Swagger ao rodar a aplicação:
 ```text
 http://localhost:8080/swagger-ui/index.html
