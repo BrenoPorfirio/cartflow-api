@@ -28,7 +28,9 @@ A CartFlow API é um backend de e-commerce robusto construído com Spring Boot. 
 
 Visualização da Interface (Swagger)
 Endpoints Principais
+
 👥 Gerenciamento de Clientes
+
 GET /customers - Lista todos os clientes e os valores totais de seus respectivos carrinhos.
 
 POST /customers - Registra un novo cliente (popula o endereço automaticamente via CEP).
@@ -36,11 +38,13 @@ POST /customers - Registra un novo cliente (popula o endereço automaticamente v
 PUT /customers/{id} - Atualiza as informações do perfil.
 
 🛍️ Operações do Carrinho de Compras
+
 POST /customers/{id}/products/{productId}?quantity=X - Adiciona X unidades de um produto ao carrinho do cliente, debitando do estoque da loja.
 
 PUT /customers/{id}/products/{productId}?quantity=Y - Atualiza a quantidade do item no carrinho para Y e faz o balanço dinâmico com o estoque restante da loja.
 
 📦 Catálogo de Produtos
+
 POST /products - Registra um novo produto no catálogo definindo seu estoque geral inicial.
 
 GET /products - Verifica os itens do catálogo e o estoque restante.
